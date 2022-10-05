@@ -1,0 +1,48 @@
+/*** Opening the code for the index.html for Cetan Group ***/
+:root {
+	--color-dark: #000;
+	--color-base: #ffd63399;
+	--color-gray1: #444;
+}
+:root{
+	--bg-color-carousel: #000;
+}
+.carousel-item{
+	width: 100%;
+	height: 450px;
+}
+.image-cover{
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: var(--color-dark);
+}
+.text-black{
+	color: var(--color-dark);
+	text-shadow: 2px 2px 25px var(--color-base),2px 2px 25px var(--color-base),2px 2px 25px var(--color-base);
+}
+/*** Add element of footer ***/
+footer .d-flex{
+	justify-content: space-between;
+	flex-basis: content;
+}
+.box-contact{
+	margin-left: 1rem;
+}
+.box-contact i{
+	padding-right: .3rem;
+}
+.fa-circle-up{
+	position: relative;
+	font-size: 2rem;
+	padding-right: .8rem;
+}
+.bi:hover, .float-end:hover{
+	color: var(--color-base);
+	border-radius: 5px;
+	transform: rotate(360deg);
+	transition: 1s;
+}
